@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My name is Jennifer Dunne and I am just starting to use GitHub for a programming skills class.
 
 Things you may want to cover:
 
