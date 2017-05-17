@@ -1,1 +1,36 @@
-fds.css
+h1 {font-style: cursive, serif;
+	font-weight: bold;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: blue;}
+
+
+p {color: red;
+	font-style: cursive, garamond, georgia, sans serif;
+	font-size: 1.3em;}
+
+nav {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin-bottom: 20px;
+	background: -webkit-linear-gradient(top, yellow 0%, orange 100%);
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc; }
+
+nav ul {width: 100%;}
+
+nav ul li {width: 5%;
+	float: left;}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc; 
+	width: 100%;
+	}
+
+nav ul li a:hover {color: #000;
+	text-decoration: none;}

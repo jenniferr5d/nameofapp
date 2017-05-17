@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Nameofapp</title>
+  
+      <title>Nameofapp</title>
     
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <%= stylesheet_link_tag    'default', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'default', 'data-turbolinks-track': 'reload' %>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"> </script>
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-    
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-    <%= csrf_meta_tags %>
-  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= csrf_meta_tags %>
+</head>
+  
 
   <body>
 
@@ -26,7 +27,12 @@
 
   <%= yield %>
 
-  <footer>	
+  <div class ="page-wrap">
+    <h1> Sticky Footer </h1>
+    <h2> for Jenni's Page </h2>
+    <button id="add" > Add Content </button>
+  </div>
+  <footer class="site-footer">	
     &copy; 1995 Jenni
   </footer>
 

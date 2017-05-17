@@ -3,12 +3,12 @@ class StaticPagesController < ApplicationController
   end
 end
 
-class aboutpagescontroller <ApplicationController
+class StaticPagesController <ApplicationController
 	def about
 	end
 end
 
-class contactpagescontroller <ApplicationController
+class StaticPagesController <ApplicationController
 	def contact
 	end 
 end
